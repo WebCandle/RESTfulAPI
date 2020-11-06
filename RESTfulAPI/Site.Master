@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - Eigene ASP.NET-Anwendung</title>
+    <title><%: Page.Title %> - Eigene RESTfulAPI-WebAnwendung</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -52,8 +52,7 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Startseite</a></li>
-                        <li><a runat="server" href="~/About">Informationen</a></li>
-                        <li><a runat="server" href="~/Contact">Kontakt</a></li>
+                        <li><a runat="server" href="~/View/Get.aspx">Get</a></li>
                     </ul>
                 </div>
             </div>
@@ -63,7 +62,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - Meine ASP.NET-Anwendung</p>
+                <p>&copy; <%: DateTime.Now.Year %> - Meine RESTfulAPI-WebAnwendung</p>
             </footer>
         </div>
 
